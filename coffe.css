@@ -1,0 +1,85 @@
+body{
+    background-image:url(bs4.jpeg) ;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+header{
+    display: flex;
+    background-color: black;
+    height:100px ;
+}
+nav ul li{
+    display: inline-block;
+    padding:20px ;
+}
+nav ul li a{
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    font-size: large;
+    border: 2px solid salmon;
+    border-radius: 20%;
+    background-color: bisque;
+}
+nav{
+    margin-left: 300px;
+}
+.grid{
+    display: grid;
+    display: flex;
+    flex-wrap: wrap;
+}
+#about {
+    text-align: center;
+
+}
+.m img h2{
+    border-radius: 10%;
+
+}
+.item1 img{
+    height: 200px;
+    width: 200px;
+    padding: 70px;
+}
+.item2 img{
+    padding: 80;
+}
+.item3 img{
+    padding: 80;
+}
+.item4s img{
+    padding: 80;
+}
+#menu {
+    text-align: center;
+}
+#move{
+    width: 100%;
+    height:700px;
+    background-color: black;
+    overflow: auto auto;
+    white-space: nowrap;
+}
+#move.slide{
+    display: inline-block;
+}
+.form{
+    background-color: antiquewhite;
+    padding: 60;
+    border: 2px solid rgb(red, green, blue);
+    border-radius: 10%;
+}
+.row{
+    display: flex;
+    background-color: antiquewhite;
+    height:200 ;
+    width:200px;
+}
+.inputbox{
+    
+    color: aquamarine;
+    height: 200px;
+    width: 60px;
+}
